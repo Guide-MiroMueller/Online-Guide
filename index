@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Hecht- und Egli-Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 1.8em;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .pdf-wrapper {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      height: 90vh; /* ganze Seite nutzbar */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hecht- und Egli-Guide</h1>
+  <p>
+    Spinnfischen vom Ufer auf Hecht und Egli in Schweizer Seen – 
+    kompakter Guide mit Infos zu Verhalten, Spotwahl, Zeit, Ausrüstung und Regeln.
+  </p>
+
+  <h2>Guide ansehen</h2>
+  <p>
+    Falls der Guide nicht automatisch angezeigt wird, kannst du ihn 
+    auch direkt hier herunterladen:
+    <br>
+    <a href="Guide_Online_Test.pdf" target="_blank">Guide als PDF öffnen</a>
+  </p>
+
+  <!-- PDF-Anzeige: Dateiname bei Bedarf anpassen -->
+  <div class="pdf-wrapper">
+    <object data="Guide_Online_Test.pdf" type="application/pdf" width="100%" height="100%">
+      <p>
+        Dein Browser kann das PDF nicht direkt anzeigen.
+        <br>
+        <a href="Guide_Online_Test.pdf" target="_blank">Hier klicken, um den Guide herunterzuladen.</a>
+      </p>
+    </object>
+  </div>
+
+</body>
+</html>
